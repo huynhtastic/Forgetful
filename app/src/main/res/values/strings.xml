@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Forgetful</string>
+
+    <string name="overview_body_text">Going through the trouble of leaving your house and having to
+        come back because you forgot your wallet or phone is something everybody has gone though and
+        won\'t stop going through. This app is designed to help you leave those troubles behind
+        instead with 5 key tips to keep you from leaving your place without everything that you
+        need.\n\n
+        Swipe right or click on a tab to learn more!</string>
+</resources>
