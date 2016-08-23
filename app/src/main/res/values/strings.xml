@@ -58,5 +58,8 @@
         as guests can call you in for an intervention if you stick post-its around your place saying
         \"DON\'T FORGET KEYS…\". I\'ll let you decide what\'s overboard and what\'s not.
     </string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
 

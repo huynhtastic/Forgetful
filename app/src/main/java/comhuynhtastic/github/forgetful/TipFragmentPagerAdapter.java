@@ -23,13 +23,15 @@ public class TipFragmentPagerAdapter extends FragmentPagerAdapter {
             case 0: return new OverviewFragment();
             case 1: return new RoutineFragment();
             case 2: return new PlopFragment();
-            default: return new OverviewFragment();
+            case 3: return new JotFragment();
+            case 4: return new RemindersFragment();
+            default: return new PostItFragment();
         }
     }
 
     @Override
     public int getCount() {
-        return 3;
+        return 6;
     }
 
     @Override
@@ -38,7 +40,9 @@ public class TipFragmentPagerAdapter extends FragmentPagerAdapter {
             case 0: return mContext.getString(R.string.overview_title);
             case 1: return mContext.getString(R.string.routine_title);
             case 2: return mContext.getString(R.string.plop_title);
-            default: return "";
+            case 3: return mContext.getString(R.string.jot_title);
+            case 4: return mContext.getString(R.string.reminders_title);
+            default: return mContext.getString(R.string.postit_title);
         }
     }
 }
