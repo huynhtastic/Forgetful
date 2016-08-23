@@ -20,5 +20,43 @@
         leaving, you will be less likely to leave for the outside world unprepared.
     </string>
 
+    <!--Plop Fragment-->
+    <string name="plop_title">Designate a \'plop area\'</string>
+    <string name="plop_tip_text">
+        The next step is to have what I like to call a \'plop area\', any place or container that
+        you drop your stuff in at. This reduces the chance that you\'ll leave your items in an
+        unusual place and the chance that you\'ll panic when you think you\'ve lost something. As
+        well, you\'ll be less likely to forget to bring something with you if you ever forget to go
+        through your routine because all of your stuff will be right there for you. How convenient!
+    </string>
 
+    <!-- Jot Fragment -->
+    <string name="jot_title">Jot it down</string>
+    <string name="jot_tip_text">
+        A human can forget, but a piece of paper can\'t. Having something as archaic as a list on
+        paper will increase the likelihood of you walking through that door with everything that
+        you need. A simple yet effective tool!
+    </string>
+
+    <!--Reminders Fragment-->
+    <string name="reminders_title">Set reminders</string>
+    <string name="reminders_tip_text">
+        If you ever forget to make sure you have the phone, wallet, keys, etc., having a
+        reminder will keep you in check. Setting an alarm for any time before you leave can help
+        remind you to make sure you have everything in your pockets. Just make sure to set a
+        separate alarm from waking up to remind you that your alarm is nagging you for another
+        important reason!
+    </string>
+
+    <!--PostIt Fragment-->
+    <string name="postit_title">Post It!</string>
+    <string name="postit_tip_text">
+        This tip goes hand in hand with tip 3. If you\'re a person that relies on visuals, post-its
+        are a must for you. Having post-its on your bathroom mirror is a great way to jog that
+        memory while you\'re brushing those pearly whites, and even a post it on your door can keep
+        you from rushing out without the keys to your car. Make sure not to go overboard with these
+        as guests can call you in for an intervention if you stick post-its around your place saying
+        \"DON\'T FORGET KEYS…\". I\'ll let you decide what\'s overboard and what\'s not.
+    </string>
 </resources>
+
