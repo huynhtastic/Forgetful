@@ -30,7 +30,7 @@ public class RoutineFragment extends Fragment {
 
         titleTextView.setText(getString(R.string.routine_title));
         tipTextview.setText(getString(R.string.routine_tip_text));
-        imgView.setImageResource(R.drawable.test1);
+        imgView.setImageResource(R.drawable.r);
 
         return rootView;
     }

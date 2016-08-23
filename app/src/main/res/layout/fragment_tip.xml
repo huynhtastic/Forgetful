@@ -16,7 +16,7 @@
         android:id="@+id/image"
         android:layout_width="match_parent"
         android:layout_height="150dp"
-        tools:src="@drawable/routine"
+        tools:src="@drawable/tests"
         android:scaleType="centerCrop" />
 
     <TextView
