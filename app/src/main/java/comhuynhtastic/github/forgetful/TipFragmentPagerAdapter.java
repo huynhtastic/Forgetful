@@ -21,20 +21,22 @@ public class TipFragmentPagerAdapter extends FragmentPagerAdapter {
     public Fragment getItem(int position) {
         switch (position) {
             case 0: return new OverviewFragment();
+            case 1: return new RoutineFragment();
             default: return new OverviewFragment();
         }
     }
 
     @Override
     public int getCount() {
-        return 1;
+        return 2;
     }
 
     @Override
     public CharSequence getPageTitle(int position) {
         switch (position) {
-            case 0: return "Overview";
-            default: return "Overview";
+            case 0: return mContext.getString(R.string.overview_title);
+            case 1: return mContext.getString(R.string.routine_title);
+            default: return "";
         }
     }
 }

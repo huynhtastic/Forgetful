@@ -1,10 +1,24 @@
 <resources>
     <string name="app_name">Forgetful</string>
 
-    <string name="overview_body_text">Going through the trouble of leaving your house and having to
+    <string name="overview_title">Overview</string>
+    <string name="overview_body_text">
+        Going through the trouble of leaving your house and having to
         come back because you forgot your wallet or phone is something everybody has gone though and
         won\'t stop going through. This app is designed to help you leave those troubles behind
         instead with 5 key tips to keep you from leaving your place without everything that you
         need.\n\n
-        Swipe right or click on a tab to learn more!</string>
+        Swipe right or click on a tab to learn more!
+    </string>
+
+    <!--Routine Fragment-->
+    <string name="routine_title">Make a routine</string>
+    <string name="routine_tip_text">
+        Having a routine helps people remember more easily by making
+        something a habit. By making your own routine, whether it\'s patting all of your pockets
+        before walking out of that door or singing a song to remind you of what you need before
+        leaving, you will be less likely to leave for the outside world unprepared.
+    </string>
+
+
 </resources>
