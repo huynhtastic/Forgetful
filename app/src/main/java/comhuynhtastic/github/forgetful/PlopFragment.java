@@ -29,6 +29,7 @@ public class PlopFragment extends Fragment {
         ImageView imgView = (ImageView) rootView.findViewById(R.id.image);
 
         titleTextView.setText(getString(R.string.plop_title));
+        tipTextView.setText(getString(R.string.plop_tip_text));
 
 
         return rootView;

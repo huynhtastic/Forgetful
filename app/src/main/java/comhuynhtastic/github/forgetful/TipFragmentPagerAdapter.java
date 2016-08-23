@@ -22,13 +22,14 @@ public class TipFragmentPagerAdapter extends FragmentPagerAdapter {
         switch (position) {
             case 0: return new OverviewFragment();
             case 1: return new RoutineFragment();
+            case 2: return new PlopFragment();
             default: return new OverviewFragment();
         }
     }
 
     @Override
     public int getCount() {
-        return 2;
+        return 3;
     }
 
     @Override
@@ -36,6 +37,7 @@ public class TipFragmentPagerAdapter extends FragmentPagerAdapter {
         switch (position) {
             case 0: return mContext.getString(R.string.overview_title);
             case 1: return mContext.getString(R.string.routine_title);
+            case 2: return mContext.getString(R.string.plop_title);
             default: return "";
         }
     }
