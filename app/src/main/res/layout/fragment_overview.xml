@@ -3,12 +3,15 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@android:color/white"
     tools:context="comhuynhtastic.github.forgetful.OverviewFragment">
 
     <!-- TODO: Update blank fragment layout -->
     <TextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="@string/overview_body_text" />
+        android:text="@string/overview_body_text"
+        android:textAppearance="@android:style/TextAppearance.Medium"/>
 
 </LinearLayout>
